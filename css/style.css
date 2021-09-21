@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap&subset=cyrillic-ext");
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("../fonts/GothamPro-Bold.woff2") format('woff2'),
+        url("../fonts/GothamPro-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("../fonts/GothamPro-Italic.woff2") format('woff2'),
+        url("../fonts/GothamPro-Italic.woff") format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("../fonts/GothamPro.woff2") format('woff2'),
+        url("../fonts/GothamPro.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+* {
+    color: #000;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+} 
+/* -------------------- */
+html {
+  font-size: 16px;  
+}
+body {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* HEADER */
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;   
+    font-size: 32px;
+    color: #009688;
+    text-align: center; 
+    text-transform: uppercase;
+}
+.list li a {
+    color: #009688;
+    text-transform: lowercase;
+}
+.link > li > a {
+    color: #2764ef;
+    text-decoration: underline;
+}
+/* -------------------- */
+
+/* MAIN */
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #22327f;
+    text-shadow: 2px 2px 2px #22327f;
+}
+h3 {
+    font-size: 28px;
+    color: #2196f3;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+} 
+p {
+    line-height: 150%;
+    text-indent: 40px;
+}
+li, a {
+    line-height: 120%;
+    text-indent: 30px;
+    letter-spacing: 1px;
+} 
+.word span {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.highlight {
+    color: #f30707;
+    font-style: italic;
+}
+span.pic a {
+    color: #ffc107;
+}
+ul.items li {
+    font-family: "Playfair Display", serif;
+    color: #097171;
+}
+p.version {
+    text-transform: capitalize;
+    color: #000;
+}
+.text * {
+    font-family: "Playfair Display", serif;
+    color: #03a9f4;
+}
+.inner span {
+    color: #000;
+}
+h3 ~ p {
+    color: #491daf;
+}
+ul + p {
+    color: #bb214f;
+}
+h2 + p {
+    color: #a2ee14;
+    font-weight: 900;
+}
+/* -------------------- */
+
+/* FOOTER */
+    .footer {
+        color: #a915e4;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: oblique;
+        font-weight: 700;
+        word-spacing: 10px;
+        line-height: 200%;
+    }
+/* -------------------- */
